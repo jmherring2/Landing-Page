@@ -1,0 +1,225 @@
+*{
+    background-color: #1f3720;
+}
+
+.top{
+    display:flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #d3d3d3;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 56px;
+}
+
+ul.links{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+img{
+    width: 450px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+    display: flex;
+    color:rgb(212, 255, 219);
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+.left button.sign{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 210, 113);
+    border-radius: 12px;
+    width: 150px;
+    font-family: Helvetica, sans-serif;
+    color:rgb(4, 54, 4);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+
+
+.middle1{
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+}
+
+.roads{
+    background-color: ivory;
+    text-align: center;
+    color:rgb(15, 70, 18);
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: ivory;
+}
+
+.first, .second, .three, .fourth{
+    background-color: ivory;
+}
+
+.photo img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.caption{
+    width: 250px;
+    text-align: center;
+    background-color: ivory;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+.back, .quote, .person{
+    background-color: rgb(212, 255, 212);
+    font-family: Helvetica, sans-serif;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 50px 200px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.person{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+.third{
+    background-color: ivory;
+    font-family: helvetica, sans-serif;
+    padding: 100px 0px;
+    
+}
+
+.all{
+    display: flex; 
+    justify-content: space-between;
+    background-color:rgb(6, 51, 6);
+    padding: 50px 100px;
+    margin: 0px 200px;
+    border-radius: 10px;
+
+}
+
+.textcall{
+    display:flex;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    background-color:rgb(6, 51, 6);
+    font-family: helvetica, sans-serif;
+    margin: 0px 40px;
+
+}
+
+li.action, li.actiontwo{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    background-color:rgb(6, 51, 6);
+}
+
+.action{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Helvetica
+}
+
+.actiontwo{
+    font-size: 15px;
+    font-family: helvetica
+}
+
+button.signup{
+    background-color:rgb(255, 210, 113);
+    border-radius: 10px;
+    color: rgb(6, 51, 6);
+    font-weight: bold;
+    border-color: ivory;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+.footer{
+    margin: 30px;
+}
+
+.footertext{
+    color: ivory;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+}
